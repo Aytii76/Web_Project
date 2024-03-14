@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>
+        Recipe Finder
+     </title>
+    </head>
+    <body>
+     <h1> login</h1>
+    <pre> <h2>welcome back!</h2>
+please enter your data to login
+     </pre>
+     <form action="" method="post">
+
+        <label for="us">Username:</label><br>
+        <input type="text" id="us" name="username" autofocus required placeholder="username"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw" name="password" required placeholder="enter your password" minlength="5" maxlength="20"><br>
+         <hr>
+         <input type="reset" value="reset" title="reset your data">
+         <button><a href="file:///D:/my_html_project/admin_or_user.html" target="_blank"> login</a></button><br>
+         
+      </form>
+    </body>
+</html>
