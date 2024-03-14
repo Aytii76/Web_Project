@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>
+        Recipe Finder
+     </title>
+    </head>
+    <body>
+     <h1> sign up</h1>
+     <pre> create your account</pre>
+     <form action="" method="post">
+
+        <label for="us">Username:</label><br>
+        <input type="text" id="us" name="username" autofocus required placeholder="username"><br>
+        <label for="em">E-mail:</label><br>
+        <input type="email" id="em" name="email" required placeholder="email address"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw" name="password" required placeholder="enter strong password" minlength="5" maxlength="20"><br>
+        <label for="cpw">confirm password:</label><br>
+         <input type="password" id="cpw" name="confirm password" required placeholder="rewrite your password"><br>
+       
+         <hr>
+         <input type="reset" value="reset" title="reset your data">
+         <button> sign up as admin</button> <button> sign up as user</button><br>
+         <pre>already have account<button><a href="file:///D:/my_html_project/login.html" target="_blank"> login</a></button> </pre>
+      </form>
+    </body>
+</html>
